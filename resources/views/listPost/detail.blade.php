@@ -18,6 +18,12 @@
             .pfdetailtext{
                 margin-top: 80px;
             }
+            .pfdetailtext{
+                padding-bottom: 0 !important;
+            }
+            .content{
+                padding-bottom: 0 !important;
+            }
         }
         #gcolmobile{
             display: none;
