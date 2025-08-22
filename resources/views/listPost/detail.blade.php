@@ -23,7 +23,9 @@
             }
             .content{
                 padding-bottom: 0 !important;
+                margin-top: 80px !important;
             }
+
         }
         #gcolmobile{
             display: none;

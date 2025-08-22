@@ -285,10 +285,7 @@ footer{
                 height: 0 !important;
                 padding: 0 !important;
             }
-            .touch .content {
-                padding: 0 !important;
-                margin-top: 120px !important;
-            }
+
             }
 
     </style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>  <meta name="viewport" content="width=device-width, initial-scale=1">

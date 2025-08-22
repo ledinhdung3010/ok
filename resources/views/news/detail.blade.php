@@ -237,6 +237,10 @@
             .woo-grid-style .woo-desc-cnt .woo-product-desc{
                 margin: 0 !important;
             }
+            .touch .content {
+                padding: 0 !important;
+                margin-top: 120px !important;
+            }
         }
     </style>
 @endpush
