@@ -1,0 +1,53 @@
+@extends('admin.layout.app')
+@section('content')
+    <div class="container">
+        @if (session('success'))
+            <div class="alert alert-success">
+                {{ session('success') }}
+            </div>
+        @endif
+
+        <h2 style="color: #000">Quản Lý tin tức</h2>
+
+        <div class="table-container">
+            <button onclick="window,location.href='/admin/new/create'" class="add-btn">Thêm tin tức</button>
+            <table class="spin-table">
+                <thead>
+                <tr>
+                    <th>Tiêu đề</th>
+                    <th>Ảnh</th>
+                    <th>Ngày tạo</th>
+                    <th>Hành Động</th>
+                </tr>
+                </thead>
+                <tbody>
+                @foreach($product as $value)
+                    <tr>
+                        <td>{{$value->title}}</td>
+                        <td><img width="100px" height="100px" src="{{asset('storage/'.$value->image)}}" alt=""></td>
+                        <td>
+                            @if($value->created_at)
+                                {{ $value->created_at->format('d/m/Y') }}
+                            @else
+                                -
+                            @endif
+                        </td>
+                        <td>
+                            <a href="{{ route('admin.editNew', $value->id) }}" class="btn-edit">Sửa</a>
+                            <form action="{{ route('admin.deleteNew', $value->id) }}" method="POST" style="display:inline;">
+                                @csrf
+                                @method('DELETE')
+                                <button type="submit" class="btn-delete" onclick="return confirm('Bạn có chắc chắn muốn xóa?')">Xóa</button>
+                            </form>
+                        </td>
+                    </tr>
+
+
+                @endforeach
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+@endsection
+
