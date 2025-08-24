@@ -189,7 +189,7 @@ header.sticky nav.main_menu > ul > li > a,
 
     @media only screen and (max-width: 480px){
         .q_logo a,.q_logo img{
-            height: 40px !important;
+            height: 80px !important;
         }
 	.q_logo{
 		top:0px;

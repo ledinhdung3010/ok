@@ -110,7 +110,8 @@ margin-left:0 !important;
 }
 
 .q_logo img{
-height:40px !important;
+height:60px !important;
+top: -2px !important;
 }
 .title_text_shadow .breadcrumbs .breadcrumbs_inner,
 .title_text_shadow .subtitle,

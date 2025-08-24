@@ -398,7 +398,7 @@
     <script>
         const input = document.getElementById('images');
         const preview = document.getElementById('preview');
-        const MAX_FILES = 10, MAX_SIZE = 5 * 1024 * 1024;
+        const MAX_FILES = 10, MAX_SIZE = 50 * 1024 * 1024;
         let currentFiles = [];
 
         function render() {

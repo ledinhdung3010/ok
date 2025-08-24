@@ -565,7 +565,7 @@
 	.q_logo a {
 			}
 	.q_logo img {
-		top: 15px !important;
+		top: -10px !important;
     left: 0;
 	}
 	header .header_fixed_right_area {

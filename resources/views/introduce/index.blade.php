@@ -7,7 +7,11 @@
             .out{
                 font-size: 27px !important;
             }
+             .content{
+            padding-bottom: 0 !important;
         }
+        }
+       
     </style>
 @endpush
 @section('content')
@@ -25,7 +29,7 @@
                                         <div class="wpb_text_column wpb_content_element ">
                                             <div class="wpb_wrapper">
                                                 <div>
-                                                    <p><span class="out" style="font-size: 36px;"><span style="color: #e24725; font-family: Montserrat !important; letter-spacing: 3px;">OUR STORY</span></span></p>
+                                                    <p><span class="out" style="font-size: 36px;"><span style="color: #e24725; font-family: Montserrat !important; letter-spacing: 3px;">Về chúng tôi</span></span></p>
                                                     <p><img class="wp-image-16634 aligncenter" src="{{asset('assets/images/logo-cty.jfif')}}" alt="" width="521" height="296" /></p>
                                                 </div>
 
@@ -42,19 +46,19 @@
                     <div      class="vc_row wpb_row section vc_row-fluid " style=' text-align:left;'>
                         <div class=" full_section_inner clearfix">
                             <div class="wpb_column vc_column_container vc_col-sm-12">
-                                <div class="vc_column-inner ">
+                                <div class="vc_column-inner " style="display: none !important">
                                     <div class="wpb_wrapper">
-                                        <div class="vc_empty_space"  style="height: 64px" ><span
+                                        <div class="vc_empty_space"   ><span
                                                 class="vc_empty_space_inner">
                               <span class="empty_space_image"  ></span>
                               </span>
                                         </div>
-                                        <div class="vc_empty_space"  style="height: 64px" ><span
+                                        <div class="vc_empty_space"   ><span
                                                 class="vc_empty_space_inner">
                               <span class="empty_space_image"  ></span>
                               </span>
                                         </div>
-                                        <div class="vc_empty_space"  style="height: 64px" ><span
+                                        <div class="vc_empty_space"  ><span
                                                 class="vc_empty_space_inner">
                               <span class="empty_space_image"  ></span>
                               </span>

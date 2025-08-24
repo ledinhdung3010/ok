@@ -10,6 +10,14 @@
         #homepage{
             margin-top: 0 !important;
         }
+        .content {
+            padding-bottom: 50px !important;
+        }
+        @media(max-width:768px){
+             .content {
+            padding-bottom: 0px !important;
+        }
+        }
     </style>
 @endpush
 @section('content')
@@ -136,7 +144,7 @@
                     <div id="homepage"     class="vc_row wpb_row section vc_row-fluid " style=' text-align:left;'>
                         <div class=" full_section_inner clearfix">
                             <div class="wpb_column vc_column_container vc_col-sm-12">
-                                <div class="vc_column-inner ">
+                                <div class="vc_column-inner " style="display: none !important;">
                                     <div class="wpb_wrapper">
                                         <div class="vc_empty_space"   ><span
                                                 class="vc_empty_space_inner">
@@ -151,7 +159,7 @@
                     <div      class="vc_row wpb_row section vc_row-fluid " style=' text-align:left;'>
                         <div class=" full_section_inner clearfix">
                             <div class="wpb_column vc_column_container vc_col-sm-12">
-                                <div class="vc_column-inner ">
+                                <div class="vc_column-inner " style="display: none !important;">
                                     <div class="wpb_wrapper"></div>
                                 </div>
                             </div>

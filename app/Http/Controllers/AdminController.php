@@ -74,7 +74,7 @@ class AdminController extends Controller
 
         // Validate nhanh
         $request->validate([
-            'upload' => 'required|mimes:jpg,jpeg,png,gif,webp|max:5120' // 5MB
+            'upload' => 'required|mimes:jpg,jpeg,png,gif,webp|max:50120' // 5MB
         ]);
 
         $path = $file->store('uploads/ckeditor', 'public');
@@ -94,7 +94,7 @@ class AdminController extends Controller
             'title'       => 'required|string|max:255',
             'description' => 'required|string',
             'image'       => 'nullable|array|max:10',
-            'image.*'     => 'image|mimes:jpg,jpeg,png,gif,webp|max:5120', // 5MB
+            'image.*'     => 'image|mimes:jpg,jpeg,png,gif,webp|max:50120', // 5MB
         ], [
             'title.required'       => 'Vui lòng nhập tiêu đề',
             'description.required' => 'Vui lòng nhập mô tả',
@@ -151,7 +151,7 @@ class AdminController extends Controller
             'title'       => 'required|string|max:255',
             'description' => 'required|string',
             'image'       => 'nullable|array|max:10',
-            'image.*'     => 'image|mimes:jpg,jpeg,png,gif,webp|max:5120',
+            'image.*'     => 'image|mimes:jpg,jpeg,png,gif,webp|max:50120',
             'remove'      => 'nullable|array', // danh sách ảnh cũ cần xoá
         ], [
             'title.required'       => 'Vui lòng nhập tiêu đề',
@@ -235,7 +235,7 @@ class AdminController extends Controller
             'title'       => 'required|string|max:255',
             'description' => 'required|string',
             'image'       => 'nullable|array|max:10',
-            'image.*'     => 'image|mimes:jpg,jpeg,png,gif,webp|max:5120', // 5MB
+            'image.*'     => 'image|mimes:jpg,jpeg,png,gif,webp|max:50120', // 5MB
         ], [
             'title.required'       => 'Vui lòng nhập tiêu đề',
             'description.required' => 'Vui lòng nhập mô tả',
@@ -292,7 +292,7 @@ class AdminController extends Controller
             'title'       => 'required|string|max:255',
             'description' => 'required|string',
             'image'       => 'nullable|array|max:10',
-            'image.*'     => 'image|mimes:jpg,jpeg,png,gif,webp|max:5120',
+            'image.*'     => 'image|mimes:jpg,jpeg,png,gif,webp|max:50120',
             'remove'      => 'nullable|array', // danh sách ảnh cũ cần xoá
         ], [
             'title.required'       => 'Vui lòng nhập tiêu đề',
@@ -379,7 +379,7 @@ class AdminController extends Controller
             'title'       => 'required|string|max:255',
             'description' => 'required|string',
             'image'       => 'nullable|array|max:10',
-            'image.*'     => 'image|mimes:jpg,jpeg,png,gif,webp|max:5120', // 5MB
+            'image.*'     => 'image|mimes:jpg,jpeg,png,gif,webp|max:50120', // 5MB
         ], [
             'title.required'       => 'Vui lòng nhập tiêu đề',
             'description.required' => 'Vui lòng nhập mô tả',
@@ -436,7 +436,7 @@ class AdminController extends Controller
             'title'       => 'required|string|max:255',
             'description' => 'required|string',
             'image'       => 'nullable|array|max:10',
-            'image.*'     => 'image|mimes:jpg,jpeg,png,gif,webp|max:5120',
+            'image.*'     => 'image|mimes:jpg,jpeg,png,gif,webp|max:50120',
             'remove'      => 'nullable|array', // danh sách ảnh cũ cần xoá
         ], [
             'title.required'       => 'Vui lòng nhập tiêu đề',
@@ -616,7 +616,7 @@ class AdminController extends Controller
             'title'       => 'required|string|max:255',
             'desc' => 'required|string',
             'image'       => 'nullable|array|max:10',
-            'image.*'     => 'image|mimes:jpg,jpeg,png,gif,webp|max:5120', // 5MB
+            'image.*'     => 'image|mimes:jpg,jpeg,png,gif,webp|max:50120', // 5MB
             'category_id' => 'required|array|min:1', // Kiểm tra phải có ít nhất một category được chọn
         ], [
             'title.required'       => 'Vui lòng nhập tiêu đề',
@@ -682,7 +682,7 @@ class AdminController extends Controller
             'title'       => 'required|string|max:255',
             'desc' => 'required|string',
             'image'       => 'nullable|array|max:10',
-            'image.*'     => 'image|mimes:jpg,jpeg,png,gif,webp|max:5120', // 5MB
+            'image.*'     => 'image|mimes:jpg,jpeg,png,gif,webp|max:50120', // 5MB
             'category_id' => 'required|array|min:1',  // Yêu cầu ít nhất một category_id
             'remove'      => 'nullable|array',  // Danh sách ảnh cũ cần xoá
         ], [
@@ -786,7 +786,7 @@ class AdminController extends Controller
         $validated = $request->validate([
             'title'       => 'required|string|max:255',
             'desc'        => 'required|string',
-            'image'       => 'required|image|mimes:jpg,png,gif,webp|max:5000', // Xác thực hình ảnh
+            'image'       => 'required|image|mimes:jpg,png,gif,webp|max:50000', // Xác thực hình ảnh
             'sort'        => 'required|string',
         ], [
             'title.required' => 'Vui lòng nhập tên danh mục',
@@ -839,7 +839,7 @@ class AdminController extends Controller
         $validated = $request->validate([
             'title'       => 'required|string|max:255',
             'desc'        => 'required|string',
-            'image'       => 'nullable|image|mimes:jpg,jpeg,png,gif,webp|max:5120', // Thêm validate cho ảnh
+            'image'       => 'nullable|image|mimes:jpg,jpeg,png,gif,webp|max:50120', // Thêm validate cho ảnh
             'sort'        => 'required|string',
         ], [
             'title.required'       => 'Vui lòng nhập tên danh mục',

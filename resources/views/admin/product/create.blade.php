@@ -393,7 +393,7 @@
         const input = document.getElementById('images');
         const preview = document.getElementById('preview');
         const MAX_FILES = 10;
-        const MAX_SIZE = 5 * 1024 * 1024; // 5MB
+        const MAX_SIZE = 50 * 1024 * 1024; // 5MB
         let currentFiles = [];
 
         // render thumbnails

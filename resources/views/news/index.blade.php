@@ -7,6 +7,9 @@
             .post_info{
                 margin-top: 20px !important;
             }
+            .content{
+                padding-bottom: 0 !important;
+            }
         }
 
     </style>

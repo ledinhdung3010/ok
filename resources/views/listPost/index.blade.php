@@ -8,7 +8,11 @@
                 top: 10%;
                 height: 200px !important;
             }
+        .content{
+            padding-bottom: 0 !important;
         }
+        }
+        
 
     </style>
 @endpush
@@ -20,20 +24,20 @@
                 <div class="full_width_inner" >
                     <div id="about"     class="vc_row wpb_row section vc_row-fluid " style=' text-align:left;'>
                         <div class=" full_section_inner clearfix">
-                            <br />
+                          <br />
                             <div class="wpb_column vc_column_container vc_col-sm-12">
                                 <div class="vc_column-inner ">
                                     <div class="wpb_wrapper">
                                         </p>
                                         <p>
 
-                                            <br />
-                                        <div class="vc_empty_space"  style="height: 30px" ><span
+                                           
+                                        <div class="vc_empty_space" ><span
                                                 class="vc_empty_space_inner">
                                           <span class="empty_space_image"  ></span>
                                           </span>
                                         </div>
-                                        <br />
+                                     
                                         <div class='projects_holder_outer v5 portfolio_with_space portfolio_standard'>
                                             <div class='projects_holder portfolio_main_holder clearfix v5 standard portfolio_full_image '>
                                                 @foreach($post as $value)

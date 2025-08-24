@@ -8,6 +8,9 @@
                 top: 10%;
                 height: 200px !important;
             }
+            .content{
+                padding-bottom: 0 !important;
+            }
         }
 
     </style>

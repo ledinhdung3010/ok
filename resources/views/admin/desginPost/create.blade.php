@@ -229,7 +229,7 @@
                 <div class="input-group">
                     <label for="images">Hình ảnh (nhiều ảnh)</label>
                     <input type="file" id="images" name="image[]" accept="image/*" multiple>
-                    <small>Hỗ trợ JPG/PNG/WebP/GIF • Tối đa 10 ảnh • ≤ 5MB/ảnh</small>
+                    <small>Hỗ trợ JPG/PNG/WebP/GIF • Tối đa 10 ảnh • ≤ 50MB/ảnh</small>
                     @error('image')
                     <div style="color:#e11d48;font-size:12px">{{ $message }}</div>
                     @enderror
@@ -295,7 +295,7 @@
         const input = document.getElementById('images');
         const preview = document.getElementById('preview');
         const MAX_FILES = 10;
-        const MAX_SIZE = 5 * 1024 * 1024; // 5MB
+        const MAX_SIZE = 50 * 1024 * 1024; // 5MB
         let currentFiles = [];
 
         // render thumbnails

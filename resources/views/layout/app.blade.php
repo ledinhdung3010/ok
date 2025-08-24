@@ -18,6 +18,14 @@
             background: none !important;
             padding: 0 !important;
         }
+        @media (max-width:768px){
+            .q_logo a, .q_logo img{
+                height: 80px !important;
+            }
+            .q_logo img{
+                top: -10px !important;
+            }
+        }
     </style>
     <link rel='stylesheet' id='flash_sale_shortcodes-css'  href='{{asset('wp-content/plugins/WP-ProGrid/includes/shortcode/includes/shortcodes092c.css?ver=4.9.26')}}' type='text/css' media='all' />
     <link rel='stylesheet' id='layerslider-css'
