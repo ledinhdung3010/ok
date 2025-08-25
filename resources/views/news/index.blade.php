@@ -10,7 +10,11 @@
             .content{
                 padding-bottom: 0 !important;
             }
+            .blog_holder article{
+                margin-bottom: 20px !important;
+            }
         }
+
 
     </style>
 @endpush
@@ -24,9 +28,9 @@
                         @foreach($news as $value)
                             <article id="post-19621" class="post-19621 post type-post status-publish format-standard has-post-thumbnail hentry category-design tag-design-boom">
                                 <div class="post_content_holder" style="border-bottom: 1px solid #e24725;
-               margin: auto;     padding-bottom: 35px;
+               margin: auto;
                ">
-                                    <div class="row" id="post_row_all" style="margin-top:0px;display: flex;height:100%;">
+                                    <div class="row" id="post_row_all" style="margin-top:0px;margin-bottom:20px;display: flex;height:100%;">
                                         <div class="col-sm-3" >
                                             <div class="post_image">
                                                 <a  style="width:100%;" itemprop="url" href="{{route('detailNews',['slug'=>$value->slug])}}" title="{{$value->title}}">
@@ -40,7 +44,7 @@
                                             </div>
                                             <div class="post_info" style="margin-top: 40px">
                         <span class="source" style="
-                           font-weight: 400;"><span>Source:</span> <span style='text-transform: capitalize;'>CREATIVE INTELLIGENT SOLUTIONS</span></span> | <span class="time" style=""> {{ $value->created_at->format('d-m-Y') }}
+                           font-weight: 400;"><span>Nguồn:</span> <span style='text-transform: capitalize;'>CREATIVE INTELLIGENT SOLUTIONS</span></span> | <span class="time" style=""> {{ $value->created_at->format('d-m-Y') }}
 </span>
                                             </div>
                                         </div>

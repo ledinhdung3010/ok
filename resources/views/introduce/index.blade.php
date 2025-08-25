@@ -11,7 +11,7 @@
             padding-bottom: 0 !important;
         }
         }
-       
+
     </style>
 @endpush
 @section('content')
@@ -30,7 +30,7 @@
                                             <div class="wpb_wrapper">
                                                 <div>
                                                     <p><span class="out" style="font-size: 36px;"><span style="color: #e24725; font-family: Montserrat !important; letter-spacing: 3px;">Về chúng tôi</span></span></p>
-                                                    <p><img class="wp-image-16634 aligncenter" src="{{asset('assets/images/logo-cty.jfif')}}" alt="" width="521" height="296" /></p>
+                                                    <p><img width="40%" class="wp-image-16634 aligncenter" src="{{asset('assets/images/logo-cty.jfif')}}" alt=""  /></p>
                                                 </div>
 
                                                 <div style="margin: 10px 0">

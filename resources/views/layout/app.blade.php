@@ -26,6 +26,8 @@
                 top: -10px !important;
             }
         }
+
+
     </style>
     <link rel='stylesheet' id='flash_sale_shortcodes-css'  href='{{asset('wp-content/plugins/WP-ProGrid/includes/shortcode/includes/shortcodes092c.css?ver=4.9.26')}}' type='text/css' media='all' />
     <link rel='stylesheet' id='layerslider-css'
@@ -194,7 +196,7 @@ footer{
 
         #imageHolder {
             display: flex;
-            height: 400px; /* Or whatever */
+            height: 500px; /* Or whatever */
             position: fixed;
 
             margin: auto;
@@ -283,7 +285,25 @@ footer{
 
             }
         }
+
+
+
         @media only screen and (max-width: 720px)  {
+            .wrapper,
+            .wrapper_inner {
+                min-height: unset !important;
+                height: auto !important;
+                padding-bottom: 0 !important;
+                margin-bottom: 0 !important;
+            }
+
+            /* Nếu theme dùng flex để đẩy footer xuống, reset luôn */
+            .wrapper_inner {
+                display: block !important;
+            }
+            .footer_col1, .footer_col2{
+                margin-top: 30px !important;
+            }
             #imageHolder {
                 z-index: 1;
                 opacity: 0.8;
@@ -427,6 +447,8 @@ footer{
             </div>
         </div>
     </footer>
+
+
 </div>
 
 
@@ -463,11 +485,32 @@ footer{
             <li id="rmp-menu-item-wpml-ls-268-vi" class="menu-item wpml-ls-slot-268 wpml-ls-item wpml-ls-item-vi wpml-ls-menu-item wpml-ls-first-item wpml-ls-last-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item rmp-menu-item rmp-menu-top-level-item" role="none"><a  title = "VN"  href = "/contact"  class = "rmp-menu-item-link"  role = "menuitem"  ><span class="wpml-ls-display">Liên hệ</span></a></li>
         </ul>
     </div>
+    @php
+        $searchAction = match (true) {
+            request()->routeIs('home')        => route('desginPost'),
+            request()->routeIs('desginPost')  => route('desginPost'),
+            request()->routeIs('buyIdeas')    => route('buyIdeas'),
+            request()->routeIs('listProduct') => route('listProduct'),
+            request()->routeIs('desginIdeas') => route('desginIdeas'),
+            request()->routeIs('home.new')    => route('home.new'),
+            default                           => route('desginPost'),
+        };
+    @endphp
+
     <div id="rmp-search-box-19793" class="rmp-search-box">
-        <form action="" class="rmp-search-form" role="search">
-            <input type="search" name="s" title="Search" placeholder="Search" class="rmp-search-box">
+        <form action="{{ $searchAction }}" method="get" class="rmp-search-form" role="search">
+            <input
+                type="search"
+                name="s"
+                title="Search"
+                placeholder="Search"
+                class="rmp-search-box"
+                value="{{ request('s') }}"
+                autocomplete="off"
+            >
         </form>
     </div>
+
 </div>
 
 <div id="searchPopup" class="search-popup">
@@ -499,6 +542,7 @@ footer{
         </form>
     </div>
 </div>
+
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         // Lấy đường dẫn hiện tại
@@ -603,13 +647,21 @@ footer{
         border-radius: 8px;
         width: 100%;
         font-size: 16px;
-        transition: all 0.3s ease;
+        transition: border-color .18s ease, box-shadow .18s ease, background-color .18s ease;
+    }
+    .input-search::placeholder { color: #9aa1a9; }
+    .input-search:focus {
+        border-color: #6b8afd;
+        box-shadow: 0 0 0 4px rgba(107,138,253,0.18);
+        background-color: #fff;
     }
 
     .input-search:focus {
         border-color: #e24725; /* Màu viền khi focus */
         outline: none;
     }
+    .btn-search:hover { filter: brightness(1.05); transform: translateY(-1px); }
+    .btn-search:active { transform: translateY(0); }
 
     /* Nút tìm kiếm */
     .btn-search {
@@ -622,6 +674,10 @@ footer{
         cursor: pointer;
         transition: background-color 0.3s ease;
     }
+
+    .container-icon-close:hover { transform: scale(1.04); }
+    .container-icon-close:active { transform: scale(0.98); }
+    .container-icon-close i { font-size: 25px; color: #111; opacity: .8; }
 
     .btn-search:hover {
         background-color: #d63921;

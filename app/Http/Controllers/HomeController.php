@@ -37,10 +37,10 @@ class HomeController extends Controller
     }
     public function detailNews($slug){
         $new=News::where('slug',$slug)->first();
-        $nextPosts = News::where('created_at', '>', $new->created_at) // Lọc những bài viết có ngày sau bài hiện tại
-        ->orderBy('created_at', 'asc') // Sắp xếp theo thứ tự ngày tăng dần
-        ->take(3) // Lấy 3 bài tiếp theo
+        $nextPosts = News::inRandomOrder() // Lấy ngẫu nhiên
+        ->take(3) // Lấy 3 bài
         ->get();
+
         return view('news.detail',compact('new','nextPosts'));
     }
     public function desginPost(Request $request)

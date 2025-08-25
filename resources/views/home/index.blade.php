@@ -6,12 +6,16 @@
         @media (max-width: 768px) {
             #imageHolder{
                 top: 10%;
-                height: 200px !important;
+                height: 300px !important;
             }
              .content{
             padding-bottom: 0 !important;
         }
         }
+        .img-headers img {
+            display: block !important;
+        }
+
 
     </style>
 @endpush
@@ -36,25 +40,25 @@
                                                         <li>
                                                             <a href="/thiet-ke-san-pham">
                                                                 Thiết kế sản phẩm
-                                                                <div id="imageHolder"><img src="wp-content/uploads/2023/02/MG_9031-1.jpg"></div>
+                                                                <div class="img-headers" id="imageHolder"><img src="wp-content/uploads/2023/02/MG_9031-1.jpg"></div>
                                                             </a>
                                                         </li>
                                                         <li>
                                                             <a href="/thiet-ke-y-tuong">
                                                                 Thiết kế ý tưởng
-                                                                <div id="imageHolder"><img src="wp-content/uploads/2023/03/02a-2.jpg"></div>
+                                                                <div class="img-header" id="imageHolder"><img src="wp-content/uploads/2023/03/02a-2.jpg"></div>
                                                             </a>
                                                         </li>
                                                         <li>
                                                             <a href="/ban-san-pham">
                                                                 Bán sản phẩm
-                                                                <div id="imageHolder"><img src="wp-content/uploads/2023/03/sanpha,.jpg"></div>
+                                                                <div class="img-header" id="imageHolder"><img src="wp-content/uploads/2023/03/sanpha,.jpg"></div>
                                                             </a>
                                                         </li>
                                                         <li>
                                                             <a href="/ban-y-tuong">
                                                                 Bán ý tưởng
-                                                                <div id="imageHolder"><img src="wp-content/uploads/2023/02/ytuong.webp"></div>
+                                                                <div class="img-header" id="imageHolder"><img src="wp-content/uploads/2023/02/ytuong.webp"></div>
                                                             </a>
                                                         </li>
                                                         <ul>

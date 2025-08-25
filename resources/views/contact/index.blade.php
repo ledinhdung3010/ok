@@ -41,7 +41,7 @@
                                         </div>
                                         <div class="wpb_text_column wpb_content_element ">
                                             <div class="wpb_wrapper">
-                                                <p><span style="color: #e24725; font-family: 'Montserrat', sans-serif !important; font-size: 14pt; font-weight: 600;">LAITA DESIGN &amp; STORE</span></p>
+                                                <p><span style="color: #e24725; font-family: 'Montserrat', sans-serif !important; font-size: 14pt; font-weight: 600;">CREATIVE INTELLIGENT SOLUTIONS</span></p>
                                             </div>
                                         </div>
                                         <div class="vc_empty_space"  ><span
@@ -51,14 +51,8 @@
                                         </div>
                                         <div class="wpb_text_column wpb_content_element ">
                                             <div class="wpb_wrapper">
-                                                <p><span style="color: #e24725; font-family: 'Montserrat', sans-serif !important; font-weight: 400; font-size: 12pt;">Showroom: No 36, D8 Road, KDC Hung Phu, </span></p>
-                                                <p><span style="color: #e24725; font-family: 'Montserrat', sans-serif !important; font-weight: 400; font-size: 12pt;">W. Phuoc Long B, </span><span style="color: #e24725; font-family: 'Montserrat', sans-serif !important; font-weight: 400; font-size: 12pt;">Thu Duc City, HCMC, VN. </span></p>
-                                                <p>&nbsp;</p>
-                                                <p><span style="color: #e24725; font-family: 'Montserrat', sans-serif !important; font-weight: 400; font-size: 12pt;">HCM Urban Garden &#8211; 71 Xuân Thủy, Thảo Điền, Thủ Đức, TP. HCM<br />
-                              </span>
-                                                </p>
-                                                <p><span style="color: #e24725; font-family: 'Montserrat', sans-serif !important; font-weight: 400; font-size: 12pt;">Win Chair &#8211; 46 Nguyễn Thị Nhung, Hiệp Bình Phước, Thủ Đức, TP. HCM </span></p>
-                                                <p><span style="color: #e24725; font-family: 'Montserrat', sans-serif !important; font-weight: 400; font-size: 12pt;">Make My Home &#8211; 90 &#8211; 92, Đường số B2, Khu đô thị Sala, Thủ Đức, TP. HCM</span></p>
+                                                <p style="padding: 10px 0"><span style="color: #e24725; font-family: 'Montserrat', sans-serif !important; font-weight: 400; font-size: 12pt;">42 Trần Quý Khoách, Phường Tân Định, Quận 1, Hồ Chí Minh</span></p>
+
                                             </div>
                                         </div>
                                         <div class="vc_empty_space"  ><span
@@ -76,34 +70,26 @@
                                                             <p>&nbsp;
                                                         </td>
                                                         <td >
-                                                            <a href="mailto:design.laita@gmail.com"><span style="font-weight: 600; font-size: 12pt; font-family: Montserrat, sans-serif !important;">Design Studio</span></a></p>
-                                                            <p><a href="mailto:info.laitastore@gmail.com"><span style="font-weight: 600; font-size: 12pt; font-family: Montserrat, sans-serif !important;">Furniture Store</span></a></p>
+                                                            <a href="mailto:crist.int.info@gmail.com"><span style="font-weight: 600; font-size: 12pt; font-family: Montserrat, sans-serif !important;">crist.int.info@gmail.com</span></a></p>
+
                                                             <p>&nbsp;
                                                         </td>
                                                     </tr>
                                                     <tr >
                                                         <td >
                                                             <span style="color: #e24725; font-family: 'Montserrat', sans-serif !important; font-weight: 400; font-size: 12pt;">Phone </span></p>
-                                                            <p><span style="color: #e24725; font-family: 'Montserrat', sans-serif !important; font-weight: 400; font-size: 12pt;">(for design inquiry)         </span>
                                                         </td>
-                                                        <td ><span style="color: #e24725; font-family: 'Montserrat', sans-serif !important; font-weight: 600; font-size: 12pt;">(+84) 985907813</span></td>
+                                                        <td > <a href="tel:+84949079010"><span style="color: #e24725; font-family: 'Montserrat', sans-serif !important; font-weight: 600; font-size: 12pt;">(+84) 949079010</span></a></td>
                                                     </tr>
-                                                    <tr >
-                                                        <td >
-                                                            <span style="color: #e24725; font-family: 'Montserrat', sans-serif !important; font-weight: 400; font-size: 12pt;">Phone </span></p>
-                                                            <p><span style="color: #e24725; font-family: 'Montserrat', sans-serif !important; font-weight: 400; font-size: 12pt;">(for product inquiry)</span></p>
-                                                            <p>&nbsp;
-                                                        </td>
-                                                        <td ><span style="color: #e24725; font-family: 'Montserrat', sans-serif !important; font-weight: 600; font-size: 12pt;">(+84) 778867123</span></td>
-                                                    </tr>
-                                                    <tr >
-                                                        <td ><span style="color: #e24725; font-family: 'Montserrat', sans-serif !important; font-weight: 400; font-size: 12pt;">Instagram       </span></td>
-                                                        <td ><a href="https://www.instagram.com/laitadesign/"><span style="font-weight: 600; font-size: 12pt; font-family: 'Montserrat', sans-serif !important;">Laita Design</span></a><span style="font-weight: 600; font-size: 12pt; font-family: 'Montserrat', sans-serif !important;"> <span style="color: #e24725; font-family: 'Montserrat', sans-serif !important; font-weight: 600; font-size: 12pt;">/</span><strong> </strong></span><a href="https://www.instagram.com/laitastore/"><span style="font-weight: 600; font-size: 12pt; font-family: 'Montserrat', sans-serif !important;">Laita Store</span></a></td>
-                                                    </tr>
-                                                    <tr >
-                                                        <td ><span style="color: #e24725; font-family: 'Montserrat', sans-serif !important;"><span style="font-weight: 400; font-size: 12pt; font-family: 'Montserrat', sans-serif !important;">Facebook        </span></span></td>
-                                                        <td ><span style="color: #e24725; font-family: 'Montserrat', sans-serif !important;"><a href="https://www.facebook.com/laitadesignstudio"><span style="font-weight: 600; font-size: 12pt; font-family: 'Montserrat', sans-serif !important;">Laita Design</span></a><span style="font-weight: 600; font-size: 12pt; font-family: 'Montserrat', sans-serif !important;"> <span style="color: #e24725; font-family: 'Montserrat', sans-serif !important; font-weight: 600; font-size: 12pt;">/</span><strong> </strong></span><a href="https://www.facebook.com/laitastore/"><span style="font-weight: 600; font-size: 12pt; font-family: 'Montserrat', sans-serif !important;">Laita Store</span></a></span></td>
-                                                    </tr>
+
+{{--                                                    <tr >--}}
+{{--                                                        <td ><span style="color: #e24725; font-family: 'Montserrat', sans-serif !important; font-weight: 400; font-size: 12pt;">Instagram       </span></td>--}}
+{{--                                                        <td ><a href="https://www.instagram.com/laitadesign/"><span style="font-weight: 600; font-size: 12pt; font-family: 'Montserrat', sans-serif !important;">Laita Design</span></a><span style="font-weight: 600; font-size: 12pt; font-family: 'Montserrat', sans-serif !important;"> <span style="color: #e24725; font-family: 'Montserrat', sans-serif !important; font-weight: 600; font-size: 12pt;">/</span><strong> </strong></span><a href="https://www.instagram.com/laitastore/"><span style="font-weight: 600; font-size: 12pt; font-family: 'Montserrat', sans-serif !important;">Laita Store</span></a></td>--}}
+{{--                                                    </tr>--}}
+{{--                                                    <tr >--}}
+{{--                                                        <td ><span style="color: #e24725; font-family: 'Montserrat', sans-serif !important;"><span style="font-weight: 400; font-size: 12pt; font-family: 'Montserrat', sans-serif !important;">Facebook        </span></span></td>--}}
+{{--                                                        <td ><span style="color: #e24725; font-family: 'Montserrat', sans-serif !important;"><a href="https://www.facebook.com/laitadesignstudio"><span style="font-weight: 600; font-size: 12pt; font-family: 'Montserrat', sans-serif !important;">Laita Design</span></a><span style="font-weight: 600; font-size: 12pt; font-family: 'Montserrat', sans-serif !important;"> <span style="color: #e24725; font-family: 'Montserrat', sans-serif !important; font-weight: 600; font-size: 12pt;">/</span><strong> </strong></span><a href="https://www.facebook.com/laitastore/"><span style="font-weight: 600; font-size: 12pt; font-family: 'Montserrat', sans-serif !important;">Laita Store</span></a></span></td>--}}
+{{--                                                    </tr>--}}
                                                     </tbody>
                                                 </table>
                                             </div>

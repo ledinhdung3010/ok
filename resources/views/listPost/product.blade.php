@@ -34,7 +34,7 @@
                                                 </p>
                                             </div>
                                         </div>
-                                        <div class="vc_empty_space"  style="height: 30px" ><span
+                                        <div class="vc_empty_space" ><span
                                                 class="vc_empty_space_inner">
                                           <span class="empty_space_image"  ></span>
                                           </span>
@@ -66,11 +66,11 @@
 
                                             </div>
                                         </div>
-                                        <div class="separator  transparent   " style="margin-top: 60px;margin-bottom: 60px;"></div>
+
                                         <p>
 
 
-                                        <div class="separator  transparent   " style="margin-top: 20px;margin-bottom: 20px;"></div>
+
                                         <p>
                                     </div>
                                     @endforeach
