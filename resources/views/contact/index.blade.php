@@ -18,6 +18,7 @@
             padding-bottom: 0px !important;
         }
         }
+
     </style>
 @endpush
 @section('content')

@@ -20,12 +20,16 @@
         }
         @media (max-width:768px){
             .q_logo a, .q_logo img{
-                height: 80px !important;
+                height: 60px !important;
             }
             .q_logo img{
-                top: -10px !important;
+                top: 0px !important;
             }
         }
+        .content ul {
+            margin-left: 15px !important;
+        }
+
 
 
     </style>
@@ -462,7 +466,7 @@ footer{
         </a>
     </div>
     <div id="rmp-menu-additional-content-19793" class="rmp-menu-additional-content">
-        <strong>@alexaseleno</strong>
+
     </div>
     <div id="rmp-menu-wrap-19793" class="rmp-menu-wrap">
         <ul id="rmp-menu-19793" class="rmp-menu" role="menubar" aria-label="EN">

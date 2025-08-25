@@ -31,11 +31,11 @@
 		.angled-section polygon{
 			fill: #ffffff;
 		}
-				
+
         .wrapper{
     	 background-color:#ffffff;
     height: auto;
-    min-height: 100%;     
+    min-height: 100%;
 }
 
 
@@ -110,7 +110,7 @@ li.narrow .second .inner ul,
 					header:not(.sticky):not(.scrolled) .header_bottom,
 			header.fixed_top_header .bottom_header{
 			}
-			
+
 
 
 
@@ -118,10 +118,10 @@ li.narrow .second .inner ul,
 						.content{
 				margin-top: -47px;
 				z-index:0;
-				
+
 			}
-				
-	
+
+
 .logo_wrapper,
 .side_menu_button,
 .shopping_cart_inner
@@ -145,12 +145,12 @@ header.sticky .shopping_cart_inner
 	height: 46pxpx !important;
 }
 
-header.sticky nav.main_menu > ul > li > a, 
-.light.sticky nav.main_menu > ul > li > a, 
-.light.sticky nav.main_menu > ul > li > a:hover, 
-.light.sticky nav.main_menu > ul > li.active > a, 
-.dark.sticky nav.main_menu > ul > li > a, 
-.dark.sticky nav.main_menu > ul > li > a:hover, 
+header.sticky nav.main_menu > ul > li > a,
+.light.sticky nav.main_menu > ul > li > a,
+.light.sticky nav.main_menu > ul > li > a:hover,
+.light.sticky nav.main_menu > ul > li.active > a,
+.dark.sticky nav.main_menu > ul > li > a,
+.dark.sticky nav.main_menu > ul > li > a:hover,
 .dark.sticky nav.main_menu > ul > li.active > a {
 	line-height: 46pxpx;
 }
@@ -185,22 +185,22 @@ header.sticky nav.main_menu > ul > li > a,
 
 
 }
-    }   
+    }
 
     @media only screen and (max-width: 480px){
         .q_logo a,.q_logo img{
-            height: 80px !important;
+            height: 60px !important;
         }
 	.q_logo{
-		top:0px;
+		top:5px;
 	}
-    }   
+    }
 
 
     .touch section.parallax_section_holder{
 		height: auto !important;
-		min-height: 300px;  
-		background-position: center top !important;  
+		min-height: 300px;
+		background-position: center top !important;
 		background-attachment: scroll;
         background-size: cover;
 	}
@@ -227,14 +227,14 @@ nav.main_menu > ul > li > a{
 			background-color: #e24725;
 		}
 
-	
+
 
 nav.main_menu ul li:hover a {
 	 color: #303030; }
 
 		nav.main_menu ul li.active a {
 			color: #e24725		}
-	
+
 
 
 
@@ -290,8 +290,8 @@ header.scrolled .side_menu_button a:hover,
 	color: #303030 !important;
 }
 
-header.sticky nav.main_menu > ul > li > a, 
-header.light.sticky nav.main_menu > ul > li > a, 
+header.sticky nav.main_menu > ul > li > a,
+header.light.sticky nav.main_menu > ul > li > a,
 header.dark.sticky nav.main_menu > ul > li > a{
 						font-weight: 500; 		}
 
@@ -379,7 +379,7 @@ h6 a {
     .side_menu p,
     .side_menu .widget.widget_rss li a.rsswidget,
     .side_menu #wp-calendar caption,
-    .side_menu #wp-calendar th, 
+    .side_menu #wp-calendar th,
     .side_menu #wp-calendar td,
     aside .widget #lang_sel_list li a,
     aside .widget #lang_sel li a,
@@ -399,7 +399,7 @@ h6 a {
     .side_menu #lang_sel_list.lang_sel_list_vertical a,
     #lang_sel_footer a{
     	color: #e24725;    }
-    .header_top #lang_sel > ul > li > a, 
+    .header_top #lang_sel > ul > li > a,
     .header_top #lang_sel_click > ul > li> a,
     footer #lang_sel ul li a,
     footer #lang_sel ul ul a,
@@ -439,11 +439,11 @@ h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover,
 
 	.title .text_above_title {
 		font-family: "Montserrat";	}
-	
+
 	.separator.small,
 	.wpb_column>.wpb_wrapper .separator.small {
 		height: 6px;margin-top: 24px;margin-bottom: 28px;background-color: #f6bb2e;width: 32px;	}
-	
+
 
 
 
@@ -461,8 +461,8 @@ input.wpcf7-form-control.wpcf7-submit:not([disabled]),
 .woocommerce .button
 	{
 	color: #f6bb2e; 		font-family: 'Montserrat', sans-serif;
-	
-    	border-color: #f6bb2e; 
+
+    	border-color: #f6bb2e;
 		font-size: 18px; 		line-height: 60px; 		height: 60px; 			font-weight: 400; 			border-radius: 0px; 		-moz-border-radius: 0px; 		-webkit-border-radius: 0px; 		letter-spacing: 1px; 		 border-width: 2px;	}
 
 .qode-qbutton-main-color {
@@ -482,7 +482,7 @@ input.wpcf7-form-control.wpcf7-submit:not([disabled]),
     .woocommerce-page input[type="submit"]:hover,
 	.woocommerce .button:hover
 	{
-	 color: #ffffff; 
+	 color: #ffffff;
 	 border-color: #f6bb2e	}
 
 	.qbutton:hover,
@@ -636,8 +636,8 @@ font-family: "Montserrat", sans-serif	}
     .popup_menu .line:after, .popup_menu .line:before{
         background-color: #353535;
     }
- 
- 
+
+
  .vertical_menu_float .menu-item .second{
 	left: calc(100% + 30px); /*because of the padding*/
 }
@@ -646,9 +646,9 @@ font-family: "Montserrat", sans-serif	}
 	left: calc(100% + 40px);
 }
 
- 
- 
- 
+
+
+
 
 
 
@@ -656,7 +656,7 @@ font-family: "Montserrat", sans-serif	}
 	.vertical_menu_area{
 		text-align:left;
 	}
-	
+
 
 
 
@@ -697,12 +697,12 @@ font-family: "Montserrat", sans-serif	}
 
 	.filter_holder ul li span {
 		font-size: 12px;font-weight: 400;letter-spacing: 0.5px;	}
-	
+
 
 		.qode_search_form i,
 		.qode_search_form .container input {
 			color: #e24725;		}
-		
+
 
 
 	.qode_search_form_2 input[type="text"],
@@ -711,7 +711,7 @@ font-family: "Montserrat", sans-serif	}
 	.qode_search_form_3 input[type="text"]:focus,
 	.fullscreen_search_holder .search_field,
 	.fullscreen_search_holder .search_field:focus,
-	.qode_search_form input, 
+	.qode_search_form input,
 	.qode_search_form input:focus{
 		color: #e24725}
 
@@ -824,8 +824,8 @@ font-family: "Montserrat", sans-serif	}
 
 
 
-	
-	
+
+
 
 
 
